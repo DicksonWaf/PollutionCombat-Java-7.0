@@ -79,7 +79,7 @@ public class Ship extends GameObject{
                 ship.set(indexShip, new Ship(originalX, PollutionCombat.getHEIGHT() - 350, indexShip, Character.SHIP, this.tank, this.world));
                 counter1+=1;
             }
-            //toxins
+            
             for(Toxin t:toxins) {
                 t.update();
             }
